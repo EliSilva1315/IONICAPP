@@ -1,0 +1,7 @@
+{
+  "name": "zumobot-controller",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

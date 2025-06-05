@@ -1,0 +1,50 @@
+{
+  "name": "zumobot-controller",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "ionic serve",
+    "build": "ionic build",
+    "android": "ionic cap run android",
+    "ios": "ionic cap run ios"
+  },
+  "dependencies": {
+    "@capacitor-community/bluetooth-le": "^1.0.0",
+    "@capacitor/android": "^5.0.0",
+    "@capacitor/core": "^5.0.0",
+    "@capacitor/ios": "^5.0.0",
+    "@capacitor/status-bar": "^5.0.0",
+    "@capacitor/toast": "^5.0.0",
+    "@ionic/react": "^7.0.0",
+    "@ionic/react-router": "^7.0.0",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
+    "ionicons": "^7.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router": "^5.3.4",
+    "react-router-dom": "^5.3.4"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.0.0",
+    "@ionic/cli": "^7.2.1",
+    "@types/react": "~18.2.10",
+    "@types/react-dom": "~18.2.0",
+    "@types/react-router": "^5.1.20",
+    "@types/react-router-dom": "^5.3.3",
+    "react-scripts": "5.0.1",
+    "typescript": "~5.8.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
